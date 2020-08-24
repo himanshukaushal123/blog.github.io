@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Theme</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Blogen</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <ul class="navbar-nav px-2">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Dashboard</a>
+                    </li>
+                    <li class="nav-item active px-2">
+                        <a href="posts.html" class="nav-link">Posts</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="categories.html" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="users.html" class="nav-link">Users</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                class="fas fa-user"></i>
+                            Welcome Brand
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="profile.html"><i class="fas fa-user"></i> Profile</a>
+                            <a class="dropdown-item" href="setting.html"><i class="fas fa-cog"></i> Setting</a>
+                        </div>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">
+                            <i class="fas fa-user-times"></i> Logout
+                        </a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--header-->
+    <section id="header" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white py-2">
+                        <i class="fas fa-pencil-alt"></i> Posts</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section classs="search" class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ml-auto">
+                    
+                        <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search posts...">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary">Search</button>
+                        </div>
+                        
+                        
+                        </div>
+                     
+                </div>
+            </div>
+          
+        </div>
+       
+    </section>
+    <!--posts-->
+    <section id="Posts" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Latest Posts</h4>
+                        </div>
+                        <table class="table table-striped pt-0 pb-0">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Category</th>
+                                    <th scope="col">Date</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Post One</td>
+                                    <td>Web Development</td>
+                                    <td>May 10 2018</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fas fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Post two</td>
+                                    <td>Tech Gadgets</td>
+                                    <td>May 11 2018 </td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fas fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Post three</td>
+                                    <td>Web Development</td>
+                                    <td>May 13 2018</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fas fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Post four</td>
+                                    <td>Business</td>
+                                    <td>May 15 2018</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fas fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Post five</td>
+                                    <td>Web Development</td>
+                                    <td>May 17 2018</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fas fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>Post six</td>
+                                    <td>Health & Wellness</td>
+                                    <td>May 20 2018</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fas fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>
+                            <nav class="ml-4"aria-label="...">
+                                <ul class="pagination">
+                                  <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                  </li>
+                                  <li class="page-item active"><a class="page-link" href="#">1  <span class="sr-only">(current)</span></a></li>
+                                  <li class="page-item" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                  </li>
+                                </ul>
+                              </nav>
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer id="footer" class="bg-dark text-white text-center mt-5 p-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <p class="lead">
+                        Copyright &copy;
+                        <span id="year"></span>
+                        Blogen
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--models-->
+    <div class="modal fade" id="addposts">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-white bg-primary">
+                    <h3 class="text-center"> Add Post</h3>
+                    <button class="close" data-dismiss="modal"> &times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-group">
+                        <label for="inputTitle">Title</label>
+                        <input type="text" class="form-control" id="inputTitle" placeholder="">
+                        <div class="form-group">
+                            <label for="inputCategory">Category</label>
+                            <select id="inputCategory" class="form-control">
+                                <option selected>Web Development</option>
+                                <option>Tech Gadgets</option>
+                                <option>Bussiness</option>
+                                <option>Health & Wellness</option>
+                            </select>
+                        </div>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile">Choose file</label>
+                        <small class="format-text text-muted">Max size 3mb</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="body">Body</label>
+                            <textarea name="editor1" class="form-control"></textarea>                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer" data-dismiss="close">
+<button class="btn btn-primary">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="addcategories">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-white bg-success">
+                    <h3 class="text-center"> Add Category</h3>
+                    <button class="close" data-dismiss="modal"> &times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-group">
+                        <label for="inputTitle">Title</label>
+                        <input type="text" class="form-control" id="inputTitle" placeholder="">
+                       
+
+                    </form>
+
+                </div>
+                <div class="modal-footer" data-dismiss="close">
+                    <button class="btn btn-success">Save Changes</button>
+ 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="adduser">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-white bg-warning">
+                    <h3 class="text-center"> Add User</h3>
+                    <button class="close" data-dismiss="modal"> &times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleNAME">Name</label>
+                            <input type="text" class="form-control" id="exampleNAME" aria-describedby="emailHelp">
+                              </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputCPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputCPassword1">
+                          </div>
+                       
+                      </form>
+                </div>
+                <div class="modal-footer" data-dismiss="close">
+                    <button class="btn btn-warning">Save Changes</button>
+ 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+        CKEDITOR.replace('editor1');
+    </script>
+</body>
+
+</html>
